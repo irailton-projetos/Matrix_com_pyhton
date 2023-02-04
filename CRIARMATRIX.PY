@@ -1,8 +1,9 @@
 
 # CRIAR MATRIX
 # -----------------------------
+# soma da diagonal Principal
 
-from random inport randint
+from random import randint
 
 def matrix1(*args):
     matrix = []
