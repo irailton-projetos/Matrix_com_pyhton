@@ -2,14 +2,14 @@
 # CRIAR MATRIX
 # -----------------------------
 
-import random
+from random inport randint
 
 def matrix1(*args):
     matrix = []
     for valor in range(0,3):
         linha = []
         for valor1 in range(0,4):
-            linha.append(random.randint(1,9))
+            linha.append(randint(1,9))
         matrix.append(linha)
     
     for l in range(len(matrix)):
